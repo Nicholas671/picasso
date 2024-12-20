@@ -277,20 +277,22 @@ body {
     .row2,
     .row3,
     .row4 {
-        height: 18%;
+        height: 30%;
+        width: 16%;
         padding-bottom: 40px;
     }
 
     .row1 {
-        top: 13%;
+        top: 14%;
+        left: 34%;
     }
 
     .row2 {
-        top: 21%;
+        top: 27%;
     }
 
     .row3 {
-        top: 25%;
+        top: 32%;
     }
 
 
@@ -305,20 +307,23 @@ body {
     .row2,
     .row3,
     .row4 {
-        height: 13%;
+        height: 28%;
+        width: 20%;
         padding-bottom: 35px;
     }
 
     .row1 {
-        top: 12.5%;
+        top: 13%;
+        left: 31%;
     }
 
     .row2 {
-        top: 17.5%;
+        top: 26%;
     }
 
     .row3 {
-        top: 21%;
+        top: 30%;
+        left: 30%;
     }
 
     .form {
