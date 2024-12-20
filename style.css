@@ -359,7 +359,8 @@ body {
     }
 
     .form {
-        width: 95%;
+        font-size: 50%;
+        width: 50%;
         right: 25%;
     }
 
