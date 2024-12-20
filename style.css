@@ -100,10 +100,7 @@ body {
     animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
-
-
 
 .block2 {
     flex-basis: 100%;
@@ -119,10 +116,7 @@ body {
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
-
-
 
 .block3 {
     flex-basis: 100%;
@@ -138,8 +132,9 @@ body {
     animation-duration: 7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-
 }
+
+
 
 .block1:nth-of-type(even) {
     animation-name: change-color-b1e;
@@ -263,71 +258,72 @@ body {
 }
 
 
-*/
+
 @media(max-width:1680px) {
-    .row1 {
-        height: 28%;
-    }
 
-    .row2 {
-        height: 28%;
-    }
-
-    .row3 {
-        height: 28%;
-    }
-
+    .row1,
+    .row2,
+    .row3,
     .row4 {
         height: 28%;
     }
-}
 
+}
+*/
 
 @media(max-width:1024px) {
-    .row1 {
-        height: 15%;
+
+    .row1,
+    .row2,
+    .row3,
+    .row4 {
+        height: 18%;
         padding-bottom: 40px;
+    }
+
+    .row1 {
+        top: 13%;
     }
 
     .row2 {
-        height: 15%;
-        padding-bottom: 40px;
+        top: 21%;
     }
 
     .row3 {
-        height: 15%;
-        padding-bottom: 40px;
-
-    }
-
-    .row4 {
-        height: 15%;
-        padding-bottom: 40px;
+        top: 25%;
     }
 
 
 }
 
+
+
+
 @media(max-width:768px) {
-    .row1 {
-        height: 12%;
+
+    .row1,
+    .row2,
+    .row3,
+    .row4 {
+        height: 13%;
         padding-bottom: 35px;
+    }
+
+    .row1 {
+        top: 12.5%;
     }
 
     .row2 {
-        height: 12%;
-        padding-bottom: 35px;
-        top: 18%;
+        top: 17.5%;
     }
 
     .row3 {
-        height: 12%;
-        padding-bottom: 35px;
-        top: 23%;
+        top: 21%;
     }
 
-    .row4 {
-        height: 11%;
-        padding-bottom: 35px;
+    .form {
+        width: 50%;
+        left: 25%;
     }
+
 }
