@@ -332,3 +332,35 @@ body {
     }
 
 }
+
+@media(max-width:500px) {
+
+    .row1,
+    .row2,
+    .row3,
+    .row4 {
+        height: 33%;
+        width: 33%;
+        padding-bottom: 25px;
+    }
+
+    .row1 {
+        top: 13%;
+        left: 22%;
+    }
+
+    .row2 {
+        top: 27%;
+    }
+
+    .row3 {
+        top: 31%;
+        left: 17%;
+    }
+
+    .form {
+        width: 75%;
+        left: 15%;
+    }
+
+}
